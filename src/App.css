@@ -3,7 +3,15 @@
 }
 
 .App a {
+    color: var(--info)
+}
+
+.App a.about-btn {
     color: var(--light)
+}
+
+.App a.about-btn:hover {
+    color: var(--dark)
 }
 
 
