@@ -8,6 +8,7 @@ export const ProjectList = () => {
                 <ProjectItem title="Client Panel (Angular)" link="https://clientpanelprod-23957.firebaseapp.com"/>
                 <ProjectItem title="Note Keeper (Angular + Ionic)" link="https://note-keeper-3e377.firebaseapp.com/collections"/>
                 <ProjectItem title="Github Finder (React)" link="https://githubfinder0820.netlify.app"/>
+                <ProjectItem title="Contact Keeper (React)" link="https://guarded-earth-48792.herokuapp.com"/>
                 <ProjectItem title="Starwars Zombies (Unity Game)" link="https://gamejolt.com/games/starwars-zombies/421504"/>
                 <ProjectItem title="BeavDMS Senior Project (Vue, AWS)" link="http://www.beavdms.com"/>
                 <ProjectItem title="Prime Dictation (XCode): View on iOS App Store"/>
