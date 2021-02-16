@@ -5,8 +5,8 @@ export const Navbar = () => {
     let page = useLocation().pathname;
 
     return (
-        <nav className="navbar bg-dark py-3 justify-content-between">
-            <h1 className="text-light">Bryce Albertazzi Portfolio Projects</h1>
+        <nav className="navbar py-3 justify-content-between border-bottom border-light" style={{backgroundColor: "#181818"}}>
+            <h1 className="" style={{color: "var(--gray-200)"}}>Bryce Albertazzi Portfolio Projects</h1>
             <div>
                 {page == "/" ? 
                 <Link to="/about" className="btn btn-outline-light about-btn">About Bryce</Link> :

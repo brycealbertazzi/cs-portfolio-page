@@ -3,7 +3,7 @@ import { ProjectItem } from './ProjectItem';
 
 export const ProjectList = () => {
     return (
-        <div className="bg-secondary py-5">
+        <div className="py-5">
             {/* List all project items below with a title and a link */}
                 <ProjectItem title="Client Panel (Angular)" link="https://clientpanelprod-23957.firebaseapp.com"/>
                 <ProjectItem title="Note Keeper (Angular + Ionic)" link="https://note-keeper-3e377.firebaseapp.com/collections"/>
