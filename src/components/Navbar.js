@@ -6,7 +6,7 @@ export const Navbar = () => {
 
     return (
         <nav className="navbar py-3 justify-content-between border-bottom border-light" style={{backgroundColor: "#181818"}}>
-            <h1 className="" style={{color: "var(--gray-200)"}}>Bryce Albertazzi Portfolio Projects</h1>
+            <h1 className="" style={{color: "#e9ecef"}}>Bryce Albertazzi Portfolio Projects</h1>
             <div>
                 {page == "/" ? 
                 <Link to="/about" className="btn btn-outline-light about-btn">About Bryce</Link> :
