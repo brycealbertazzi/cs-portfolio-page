@@ -1,4 +1,5 @@
 .App {
+    overflow: scroll;
     background-color: #495057;
 }
 
