@@ -12,7 +12,7 @@ export const About = () => {
                 with deploying to platforms such as Google Firebase, Netlify, AWS, and more. I believe I can be an asset to many companies with my broad experience in many
                 areas of computer science.
                 <br></br><br></br>
-                &emsp; &emsp; In my spare time I enjoy taking walks, watching sports and playing videogames. I am a big 49ers fan, I watch their games every Sunday during the football
+                &emsp; &emsp; In my spare time I enjoy taking walks and watching sports. I am a big 49ers fan, I watch their games every Sunday during the football
                 season. I watch other sports as well including baseball, basketball and tennis. I played baseball through high school and have enjoyed playing on intramural softball and
                 basketball teams in college. I enjoy being social and doing fun activities with other people like playing board/card games and going outside.
             </h5>
