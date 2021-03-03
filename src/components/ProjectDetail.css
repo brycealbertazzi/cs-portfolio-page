@@ -1,0 +1,14 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.description {
+
+}
+
+.link {
+    align-self: center;
+    margin-bottom: 10px;
+}
