@@ -11,8 +11,7 @@ export const ProjectList = () => {
                 <ProjectItem title="Github Finder (React)" link="https://githubfinder0820.netlify.app" id="3"/>
                 <ProjectItem title="Contact Keeper (React)" link="https://guarded-earth-48792.herokuapp.com" id="4"/>
                 <ProjectItem title="Starwars Zombies (Unity Game)" link="https://gamejolt.com/games/starwars-zombies/421504" id="5"/>
-                <ProjectItem title="BeavDMS Senior Project (Vue, AWS)" link="http://www.beavdms.com" id="6"/>
-                <ProjectItem title="Prime Dictation (XCode): View on iOS App Store" id="7"/>
+                <ProjectItem title="Prime Dictation (XCode): View on iOS App Store" id="6"/>
         </div>
     )
 }

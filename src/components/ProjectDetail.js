@@ -54,14 +54,6 @@ export const ProjectDetail = props => {
                                         Check it out!</h4>
                                 case '6':
                                     return <h4 className="text-warning">
-                                        &emsp; &emsp; BeavDMS is a senior project created by myself and two other group members at Oregon State University. It is a document
-                                        management system (DMS) intended for Oregon State students and faculty. It provides a publicly-accessible place for Oregon State students 
-                                        to store and show off work they've done in a place where potential employers and future students can see. This app
-                                        has a Vue frontend and an AWS backend. There is also an email implementaion layer where users can add projects 
-                                        to the DMS by sending an email to gobeavdms@gmail.com.
-                                        Before BeavDMS, Oregon State did not have a proper document management system.</h4>
-                                case '7':
-                                    return <h4 className="text-warning">
                                         &emsp; &emsp; Prime Dication is a iOS app made with Xcode and deployed to the iOS App Store. It is a dication (voice recording) app where users can make a recording and
                                         send it to their Dropbox account with one click of a button. Prime Dication was created for a client with specific requirements for the app.
                                         This iOS app demonstrates the ability to develop a business-oriented app to the specific needs of a client, while communicating effectively.</h4>                               
@@ -104,10 +96,6 @@ export const ProjectDetail = props => {
                                                 <img src="https://snipboard.io/FqfSs4.jpg" className="img-fluid rounded mx-auto d-block w-75 mb-5" alt="..."></img>
                                             </div>
                                 case '6':
-                                    return <div>
-                                                <img src="https://snipboard.io/L6cCnB.jpg" className="img-fluid rounded mx-auto d-block w-75 mb-5" alt="..."></img>
-                                            </div>
-                                case '7':
                                     return <div>
                                                 <img src="https://snipboard.io/Tqa5uN.jpg" className="img-fluid rounded mx-auto d-block w-25 mb-5" alt="..."></img>
                                                 <img src="https://snipboard.io/u8MZtw.jpg" className="img-fluid rounded mx-auto d-block w-25 mb-5" alt="..."></img>
