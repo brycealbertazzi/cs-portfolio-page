@@ -4,7 +4,7 @@ import { Navbar } from './components/Navbar';
 import { ProjectList } from './components/ProjectList';
 import { ProjectDetail } from './components/ProjectDetail';
 import { About } from './components/About';
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   if (window.event) {
@@ -17,8 +17,6 @@ function App() {
         <Switch>
           <Route exact path='/' component={ProjectList}/>
           <Route path='/project/:id' component={ProjectDetail}></Route>
-          <Route exact path='/about' component={About}/>
-          
         </Switch>
       </div>
     </Router>

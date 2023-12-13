@@ -1,0 +1,11 @@
+.style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    background-color: #181818;
+}
+
+.link {
+    
+}
