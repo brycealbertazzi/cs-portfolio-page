@@ -3,7 +3,6 @@ import './ProjectDetail.css'
 
 export const ProjectDetail = props => {
     
-
     return (
         <div>
             {props.location.projectProps
@@ -16,7 +15,7 @@ export const ProjectDetail = props => {
                     <div className="link mb-5">
                         {/* If we have a link, display it */}
                         {props.location.projectProps.link && 
-                             <a href={props.location.projectProps.link} target="_blank">
+                             <a href={props.location.projectProps.link} target="_blank" rel="noreferrer">
                                 <button className="btn btn-lg btn-outline-info">View on the Web</button>
                              </a>
                         }

@@ -1,7 +1,6 @@
 import React from 'react'
 import { ProjectItem } from './ProjectItem';
 
-
 export const ProjectList = () => {
     return (
         <div className="py-5">
