@@ -1,6 +1,5 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './ProjectDetail.css'
-import { Navbar } from './Navbar';
 
 export const ProjectDetail = props => {
     
