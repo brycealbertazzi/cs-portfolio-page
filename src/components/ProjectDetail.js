@@ -54,7 +54,11 @@ export const ProjectDetail = props => {
                                     return <h4 className="text-warning">
                                         &emsp; &emsp; Prime Dication is a iOS app made with Xcode and deployed to the iOS App Store. It is a dication (voice recording) app where users can make a recording and
                                         send it to their Dropbox account with one click of a button. Prime Dication was created for a client with specific requirements for the app.
-                                        This iOS app demonstrates the ability to develop a business-oriented app to the specific needs of a client, while communicating effectively.</h4>                               
+                                        This iOS app demonstrates the ability to develop a business-oriented app to the specific needs of a client, while communicating effectively.</h4>  
+                                case '7':
+                                    return <h4 className="text-warning">
+                                        &emsp; &emsp; Keyword Clutch is an SEO keyword reasearch tool. It calls external apis 
+                                        to get information about keyword as it relates to SEO such as search volume and cost per click. It also can scan websites to get their relevant keywords.</h4>                            
                                 default:
                                     return <h4 className="text-warning"> &emsp; &emsp; No Description...</h4>  
                             }
@@ -99,7 +103,11 @@ export const ProjectDetail = props => {
                                                 <img src="https://snipboard.io/u8MZtw.jpg" className="img-fluid rounded mx-auto d-block w-25 mb-5" alt="..."></img>
                                                 <img src="https://snipboard.io/40mV6E.jpg" className="img-fluid rounded mx-auto d-block w-25 mb-5" alt="..."></img>
                                                 <img src="https://snipboard.io/seWyiF.jpg" className="img-fluid rounded mx-auto d-block w-25 mb-5" alt="..."></img>
-                                            </div>                              
+                                            </div>   
+                                case '7':
+                                    return <div>
+                                                <img src='https://snipboard.io/AdmqW7.jpg' width={500} className="img-fluid rounded mx-auto d-block w-25 mb-5" alt="..."></img>
+                                            </div>                                
                                 default:
                                     return <h4 className="text-danger">No Images...</h4>  
                             }
