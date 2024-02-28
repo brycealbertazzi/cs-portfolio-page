@@ -18,7 +18,7 @@ export const ProjectDetailItem = ({title, link, description, imageSrcs}) => {
                         </a>
                     }
                 </div>
-                <div className="description mb-5">
+                <div className="description mb-5 mx-5">
                     <h4 className="text-warning">
                         &emsp; &emsp; {description}
                     </h4>
