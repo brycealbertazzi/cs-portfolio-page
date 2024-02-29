@@ -15,3 +15,21 @@ export const ProjectImages = {
     "client-panel": ["https://snipboard.io/kZUagi.jpg", "https://snipboard.io/BxMmEF.jpg", "https://snipboard.io/aAcfFO.jpg"],
     "starwars-zombies": ["https://snipboard.io/FqfSs4.jpg"],
 }
+
+export const PageLinks = {
+    "keyword-clutch": "https://keywordclutch.com",
+    "github-finder": "https://githubfinder0820.netlify.app",
+    "prime-dictation": "https://apps.apple.com/us/app/prime-dictation/id1479804954",
+    "note-keeper": "https://note-keeper-3e377.firebaseapp.com/collections",
+    "client-panel": "https://clientpanelprod-23957.firebaseapp.com",
+    "starwars-zombies": "https://gamejolt.com/games/starwars-zombies/421504",
+}
+
+export const PageTitles = {
+    "keyword-clutch": "Keyword Clutch",
+    "github-finder": "Github Finder",
+    "prime-dictation": "Prime Dictation",
+    "note-keeper": "Note Keeper",
+    "client-panel": "Client Panel",
+    "starwars-zombies": "Starwars Zombies",
+}
