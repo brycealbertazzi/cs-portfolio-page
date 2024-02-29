@@ -11,6 +11,7 @@ export const ProjectDetail = () => {
     const [link, setLink] = useState('');
     
     useEffect(() => {
+        console.log(id)
         setTitle(PageTitles[id])
         setLink(PageLinks[id])
     }, [id])

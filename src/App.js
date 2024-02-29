@@ -15,7 +15,7 @@ function App() {
         <Navbar/>
         <Switch>
           <Route exact path='/' component={ProjectList}/>
-          <Route path='/project/:id' component={ProjectDetail}></Route>
+          <Route path='/:id' component={ProjectDetail}></Route>
         </Switch>
       </div>
     </Router>
